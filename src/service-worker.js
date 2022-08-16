@@ -10,9 +10,10 @@
 
 // To learn more about the benefits of this model and instructions on how to
 // opt-in, read https://bit.ly/CRA-PWA
-import { precacheAndRoute } from 'workbox-precaching';
 
-precacheAndRoute(self.__WB_MANIFEST);
+if (process.env.NODE_ENV === 'production') {
+  precacheAndRoute(self.__WB_MANIFEST);
+}
 
 const isLocalhost = Boolean(
   window.location.hostname === 'localhost' ||
