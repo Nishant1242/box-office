@@ -9,11 +9,12 @@ const Show = () => {
   useEffect(() => {
     apiGet(`/shows/${id}?embed[]=seasons&embed[]=cast`).then(results => {
       setShow(results);
+      console.log(show);
     });
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id]);
-  console.log('show', show);
 
-  return <div>this is show page</div>;
+  return <div> this is show pages</div>;
 };
-
 export default Show;
