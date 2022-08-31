@@ -1,0 +1,2 @@
+!function(){"use strict";precacheAndRoute([{'revision':'70a1e41efce9d2dcc5128e89adf69a86','url':'/box-office/index.html'},{'revision':null,'url':'/box-office/static/css/main.b2586571.css'},{'revision':null,'url':'/box-office/static/js/main.26236906.js'}]);Boolean("localhost"===window.location.hostname||"[::1]"===window.location.hostname||window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/))}();
+//# sourceMappingURL=service-worker.js.map
